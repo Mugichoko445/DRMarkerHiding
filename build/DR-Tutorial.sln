@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArUcoMarker", "ArUcoMarker\ArUcoMarker.vcxproj", "{0BB28AE3-5EAC-46E2-87CA-046307792223}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DR-MarkerHiding", "DR-MarkerHiding\DR-MarkerHiding.vcxproj", "{160341DA-5683-41D3-AA6F-B4E5F6E84CC5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0BB28AE3-5EAC-46E2-87CA-046307792223} = {0BB28AE3-5EAC-46E2-87CA-046307792223}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CameraCalibration", "CameraCalibration\CameraCalibration.vcxproj", "{3BFFB9FF-5AFF-4DD1-975C-76D120365EB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BB28AE3-5EAC-46E2-87CA-046307792223}.Debug|x64.ActiveCfg = Debug|x64
+		{0BB28AE3-5EAC-46E2-87CA-046307792223}.Debug|x64.Build.0 = Debug|x64
+		{0BB28AE3-5EAC-46E2-87CA-046307792223}.Debug|x86.ActiveCfg = Debug|Win32
+		{0BB28AE3-5EAC-46E2-87CA-046307792223}.Debug|x86.Build.0 = Debug|Win32
+		{0BB28AE3-5EAC-46E2-87CA-046307792223}.Release|x64.ActiveCfg = Release|x64
+		{0BB28AE3-5EAC-46E2-87CA-046307792223}.Release|x64.Build.0 = Release|x64
+		{0BB28AE3-5EAC-46E2-87CA-046307792223}.Release|x86.ActiveCfg = Release|Win32
+		{0BB28AE3-5EAC-46E2-87CA-046307792223}.Release|x86.Build.0 = Release|Win32
+		{160341DA-5683-41D3-AA6F-B4E5F6E84CC5}.Debug|x64.ActiveCfg = Debug|x64
+		{160341DA-5683-41D3-AA6F-B4E5F6E84CC5}.Debug|x64.Build.0 = Debug|x64
+		{160341DA-5683-41D3-AA6F-B4E5F6E84CC5}.Debug|x86.ActiveCfg = Debug|Win32
+		{160341DA-5683-41D3-AA6F-B4E5F6E84CC5}.Debug|x86.Build.0 = Debug|Win32
+		{160341DA-5683-41D3-AA6F-B4E5F6E84CC5}.Release|x64.ActiveCfg = Release|x64
+		{160341DA-5683-41D3-AA6F-B4E5F6E84CC5}.Release|x64.Build.0 = Release|x64
+		{160341DA-5683-41D3-AA6F-B4E5F6E84CC5}.Release|x86.ActiveCfg = Release|Win32
+		{160341DA-5683-41D3-AA6F-B4E5F6E84CC5}.Release|x86.Build.0 = Release|Win32
+		{3BFFB9FF-5AFF-4DD1-975C-76D120365EB5}.Debug|x64.ActiveCfg = Debug|x64
+		{3BFFB9FF-5AFF-4DD1-975C-76D120365EB5}.Debug|x64.Build.0 = Debug|x64
+		{3BFFB9FF-5AFF-4DD1-975C-76D120365EB5}.Debug|x86.ActiveCfg = Debug|Win32
+		{3BFFB9FF-5AFF-4DD1-975C-76D120365EB5}.Debug|x86.Build.0 = Debug|Win32
+		{3BFFB9FF-5AFF-4DD1-975C-76D120365EB5}.Release|x64.ActiveCfg = Release|x64
+		{3BFFB9FF-5AFF-4DD1-975C-76D120365EB5}.Release|x64.Build.0 = Release|x64
+		{3BFFB9FF-5AFF-4DD1-975C-76D120365EB5}.Release|x86.ActiveCfg = Release|Win32
+		{3BFFB9FF-5AFF-4DD1-975C-76D120365EB5}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C5413F8-35A6-442F-8CB5-CC28B74756D6}
+	EndGlobalSection
+EndGlobal

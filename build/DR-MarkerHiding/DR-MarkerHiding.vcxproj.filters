@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Siltanen">
+      <UniqueIdentifier>{d195ab43-14bb-47a7-bc96-d2e68866f4bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PixMix">
+      <UniqueIdentifier>{b9f51473-9655-4a19-9aa5-c0dbb5c0f730}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\KawaiViz">
+      <UniqueIdentifier>{a8ff743e-cb5c-4ef0-a3cf-1dbee3d84f84}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\sources\DRMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\DR\Siltanen.cpp">
+      <Filter>Source Files\Siltanen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\DR\PixMix\PixMix.cpp">
+      <Filter>Source Files\PixMix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\DR\PixMix\Utilities.cpp">
+      <Filter>Source Files\PixMix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\DR\PixMix\OneLvPixMix.cpp">
+      <Filter>Source Files\PixMix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\DR\PixMix\PixMixMarkerHiding.cpp">
+      <Filter>Source Files\PixMix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\CameraCalibration\Calibration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\DR\KawaiViz\MtMarkerHiding.cpp">
+      <Filter>Source Files\KawaiViz</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\sources\DR\Siltanen.h">
+      <Filter>Source Files\Siltanen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sources\DR\PixMix\PixMix.h">
+      <Filter>Source Files\PixMix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sources\DR\PixMix\Utilities.h">
+      <Filter>Source Files\PixMix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sources\DR\PixMix\OneLvPixMix.h">
+      <Filter>Source Files\PixMix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sources\DR\PixMix\PixMixMarkerHiding.h">
+      <Filter>Source Files\PixMix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sources\DR\KawaiViz\MtMarkerHiding.h">
+      <Filter>Source Files\KawaiViz</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sources\CameraCalibration\Calibration.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
