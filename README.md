@@ -1,6 +1,6 @@
 # DR Marker Hiding
 
-This is an open source project of Diminished Reality (DR) I introduced in the "Visualization and Graphics in Mixed Reality" tutorial at [Eurographics 2021](https://conferences.eg.org/eg2021/program/tutorials/). This project would be a good starting point for DR beginners like students. All written in C++, mainly using OpenCV 4.
+This is an open source project of Diminished Reality (DR) I introduced in the "Visualization and Graphics in Mixed Reality" tutorial at [Eurographics 2021](https://diglib.eg.org/handle/10.2312/egt20211036). This project would be a good starting point for DR beginners like students. All written in C++, mainly using OpenCV 4.
 
 This project contains three marker hiding methods written in C++ (See below for the details). Here, "marker hiding" means to remove a fiducial marker from a video stream in real time, as if the marker didn't exist in the scene, so that we can mimic markerless Augmented Reality (AR) in 6DoF.
 
