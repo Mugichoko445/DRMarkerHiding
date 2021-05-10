@@ -11,13 +11,22 @@ Enjoy! :+1:
 [Shohei Mori](https://mugichoko445.github.io), TUGraz, Austria
 
 ## Methods
+
+[![YouTube video link](https://img.youtube.com/vi/vU3aXS3Jons/0.jpg)](https://www.youtube.com/watch?v=vU3aXS3Jons)
+
 ### ```Siltanen```
 
 This implementation is based on the paper ```S. Siltanen, “Texture Generation over the Marker Area,” Proc. ISMAR (2006)```, a pioneering work of DR marker hiding.
 
+[Watch it on YouTube](https://youtu.be/vU3aXS3Jons?t=0)
+
+
 ### ```PixMixMarkerHiding```
 
 This implementation is based on the paper ```J. Herling and W. Broll, "High Quality Real Time Video Inpainting with PixMix," IEEE TVCG, Vol. 20, Issue 6, pp. 866 - 879, 2014.``` The original implementation uses a feature point-based object tracking, while this implementation relies on the marker detection and tracking. Due to the inaccuracy of the marker detection, you would observe jiggling artifacts within the inpainted area.
+
+[Watch it on YouTube](https://youtu.be/vU3aXS3Jons?t=67)
+
 
 ### ```MtMarkerHiding```
 
@@ -25,6 +34,7 @@ This implementation is based on the visualization technique presented in ```N. K
 
 **Note** The scene multi-plane detection in the original paper is not implemented in this example code. Also, note that the original implementation uses a different inpainting method, while this marker hiding application uses a varient of the PixMix inpainting, for which I crunk up more rasterscan iterations and more random sampling during the optimization.
 
+[Watch it on YouTube](https://youtu.be/vU3aXS3Jons?t=174)
 
 ## How to Start?
 Everything is implemented in C++, mainly using ```OpenCV 4```. I tested the code on a Windows machine (Windows 10 Pro) and in Visual Studio 2019 Community.
